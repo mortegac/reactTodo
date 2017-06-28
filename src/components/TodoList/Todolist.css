@@ -1,18 +1,72 @@
 
 
 
+.content {
+  position: relative;
+  padding: 5px 5px;
+  min-height: 100px;
+  text-align: center;
+  
+  /*display: flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+  justify-content: center;
+  align-items: center; */
+    display: -webkit-flex;
+   display: flex;
+   -webkit-flex-direction: column; /* works with row or column */
+   flex-direction: column;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-justify-content: center;
+   justify-content: center;
+
+
+}
+
+.txtId{
+  color: green;
+  font-size: 1em;
+}
 
 .card {
   background-color: #ffffff;
   border-radius: 3px;
   border: .1em solid #e3e3e3;
-  width: 300px;
+  width: 500px;
   min-height: 100px;
   margin: 10px 5px;
   text-align: left;
   font-size: .85em;
   transition: .5s all;
+  /*padding: 10px;*/
 }
+.card .Titulo{
+  font-size: 2.3em;
+  font-weight: 300;
+}
+
+
+.card .card-accion{
+  float: left;
+  padding: 20px;
+  text-align: center;
+  color: #fff;
+  font-size: 3em;
+  /*background-color: rgba(244,67,54,0.96);*/
+  background-color: #d74d4a;
+  width: 97px;
+  min-height: 100px;
+
+}
+.card .card-titulo{
+  display: inline-block;
+  background-color: #fff;
+  width: 400px;
+  min-height: 100px;
+  padding: 10px;
+}
+
 .card:hover { box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2); }
 
 .card-image {
@@ -47,9 +101,3 @@
     text-align: center;
 }
 
-.card-content {
-  position: relative;
-  padding: 5px 5px;
-  min-height: 100px;
-  text-align: center;
-}

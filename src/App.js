@@ -23,8 +23,8 @@ class App extends Component {
           <Header />
           <p className="App-intro">
             <TodoForm {...this.props} />
-            <TodoList {...this.props} />
           </p>
+          <TodoList {...this.props} />
         </div>
         
       

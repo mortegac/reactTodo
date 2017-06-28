@@ -1,3 +1,27 @@
+body {
+  background-color: #f2f2f2;
+  color: #4a4a4a;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  margin:0;
+  padding: 0;
+  text-align: center;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+h1, h2, h3, h4, h5 { font-weight: 300; }
+h1 { font-size: 2.5em; }
+h2 { font-size: 2.1em; }
+h3 { font-size: 1.7em; }
+h4 { font-size: 1.4em; }
+h5 { font-size: 1em; }
+p { margin-top: 0; }
+
 .App {
   /*text-align: center;*/
   background:#fff;
@@ -11,10 +35,41 @@
   flex-flow:row wrap;
 }
 
+
+.content {
+  background:#dfdfdf;
+  /*width:100%;*/
+
+
+  border: 1px solid #cee;
+  min-width: 400px;
+  min-height: 200px;
+  margin: 0 auto;
+
+
+  /*padding:5px 10px;*/
+
+
+  /* Flexbox */
+  display: flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+  justify-content: center;
+  align-items: flex-start; /*Posiciona los elemento arriba en el contenedor*/
+
+/*  justify-content:space-between;
+  align-items:center;
+
+  flex-direction:row;
+  flex-wrap:wrap; 
+*/  
+}
+
+/*
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 80px;
-}
+}*/
 
 .App-header {
   background-color: #222;
@@ -24,7 +79,17 @@
 }
 
 .App-intro {
-  font-size: large;
+      width:100%;
+    padding:10px 10px;
+    min-height: 50px;
+
+    /* Flexbox */
+    display: flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: flex-start; /*Posiciona los elemento arriba en el contenedor*/
+
 }
 
 @keyframes App-logo-spin {

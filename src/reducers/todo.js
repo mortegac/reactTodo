@@ -13,7 +13,7 @@ export default function twits (state = initialState, action) {
   switch(action.type) {
     case 'ADD_TODO':
       return {
-        ...state,
+        ...state,   //Retorna una copia del state
         data: state.data.concat(action.payload),
       }
     case 'DELETE_TODO':
