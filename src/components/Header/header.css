@@ -1,0 +1,25 @@
+.header{
+    
+    background:#ffe;
+    color: #fff;
+    width:100%;
+    padding:10px 10px;
+    min-height: 50px;
+
+    /* Flexbox */
+    display: flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: flex-start; /*Posiciona los elemento arriba en el contenedor*/
+
+    /*Degrades*/
+    background: #4ca9f5;
+    background: -moz-linear-gradient(left, #4ca9f5 0%, #207ce5 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, #4ca9f5), color-stop(100%, #207ce5));
+    background: -webkit-linear-gradient(left, #4ca9f5 0%, #207ce5 100%);
+    background: -o-linear-gradient(left, #4ca9f5 0%, #207ce5 100%);
+    background: -ms-linear-gradient(left, #4ca9f5 0%, #207ce5 100%);
+    background: linear-gradient(to right, #4ca9f5 0%, #207ce5 100%);
+    
+};

@@ -1,0 +1,16 @@
+.bloque{
+    border: 1px solid #cee;
+    /*background-color: green;*/
+    width: 400px;
+    min-height: 80px;
+    margin: 0 auto;
+}
+
+.bloque input {
+    height: 50px;
+    width: 94%;
+    margin-top: 11px;
+    font-size: 26px;
+    padding: 5px 5px;
+    text-align: center;
+}
